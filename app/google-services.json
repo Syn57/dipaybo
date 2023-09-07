@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "380729479093",
+    "firebase_url": "https://dipaybo-d7741-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "dipaybo-d7741",
+    "storage_bucket": "dipaybo-d7741.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380729479093:android:ef7b2c168db9f86bce53fc",
+        "android_client_info": {
+          "package_name": "com.pkm.dipaybo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380729479093-47o9lg4nd2nfes5i496v86hr41bj0d5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPr49wA4k4V9JJpjio76HtB_OCR6qyLhM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380729479093-47o9lg4nd2nfes5i496v86hr41bj0d5e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
