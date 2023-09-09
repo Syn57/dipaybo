@@ -9,6 +9,13 @@ android {
     namespace 'com.pkm.dipaybo'
     compileSdk 33
 
+    buildFeatures {
+        viewBinding true
+    }
+    dataBinding {
+        enabled true
+    }
+
     defaultConfig {
         applicationId "com.pkm.dipaybo"
         minSdk 21
