@@ -7,22 +7,22 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.pkm.dipaybo.HomeFragment"
+        android:name="com.pkm.dipaybo.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/nav_vehicle"
-        android:name="com.pkm.dipaybo.VehicleFragment"
+        android:name="com.pkm.dipaybo.home.VehicleFragment"
         android:label="fragment_vehicle"
         tools:layout="@layout/fragment_vehicle" />
     <fragment
         android:id="@+id/nav_parking"
-        android:name="com.pkm.dipaybo.ParkingFragment"
+        android:name="com.pkm.dipaybo.home.ParkingFragment"
         android:label="fragment_parking"
         tools:layout="@layout/fragment_parking" />
     <fragment
         android:id="@+id/nav_profile"
-        android:name="com.pkm.dipaybo.ProfileFragment"
+        android:name="com.pkm.dipaybo.home.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
 </navigation>
