@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".camera.CameraActivity">
+    
+    <com.budiyev.android.codescanner.CodeScannerView
+        android:id="@+id/csv_camera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:maskColor="#8811468F"
+        app:frameVisible="true"
+        app:frameCornersRadius="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_info_padlock"
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardCornerRadius="20dp">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_padlock_mockup"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/mockup_padlock"
+                android:layout_marginStart="12dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+            <TextView
+                android:id="@+id/tv_padlock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:textSize="18sp"
+                android:text="Padlock ID"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/jost_bold"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toTopOf="@id/tv_pd_id"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_chainStyle="packed"
+                app:layout_constraintStart_toEndOf="@id/iv_padlock_mockup"/>
+            <TextView
+                android:id="@+id/tv_pd_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ajyuc57"
+                app:layout_constraintTop_toBottomOf="@id/tv_padlock"
+                app:layout_constraintStart_toStartOf="@id/tv_padlock"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

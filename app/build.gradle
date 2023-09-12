@@ -88,4 +88,6 @@ dependencies {
     //fragment & activity
     implementation "androidx.activity:activity-ktx:1.5.1"
     implementation "androidx.fragment:fragment-ktx:1.5.1"
+    //QR code
+    implementation 'com.github.yuriy-budiyev:code-scanner:2.3.2'
 }
